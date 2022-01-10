@@ -4,7 +4,7 @@ echo "Removing previous compiled file..."
 rm -f game
 
 echo "Compiling..."
-make
+time make -j2
 
 echo "Cleaning..."
 make clean
